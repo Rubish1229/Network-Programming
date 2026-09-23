@@ -1,10 +1,11 @@
-package Unit2;
+package Unit3;
 
 import java.net.URL;
 
 public class URL2 {
     static void main() throws Exception {
-        URL url2=new URL("https://deerwalk.edu.np:8080/index2.html?name=BCA");
+//        URL url2=new URL("https://deerwalk.edu.np:8080/index2.html?name=BCA");
+        URL url2=new URL("http://bcaitcollege:8822/index2.html?College=DWIT");
         System.out.println("Protocol : "+url2.getProtocol());
         System.out.println("Port : "+url2.getPort());
         System.out.println("Default port : "+url2.getDefaultPort());
