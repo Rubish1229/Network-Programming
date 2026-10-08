@@ -11,7 +11,7 @@ public class InputStreamReader {
         //add reader ipnut reader
         int i;
         while ((i=inputStream.read())!=-1){
-            System.out.println(i);
+            System.out.print(i+", ");
         }
     }
 }
